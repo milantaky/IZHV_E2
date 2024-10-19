@@ -66,6 +66,7 @@ public class Spawner : MonoBehaviour
     /// </summary>
     void Update()
     {
+        
         if (spawnObstacles)
         { // Check if we should spawn.
             spawnAccumulator += Time.deltaTime;
